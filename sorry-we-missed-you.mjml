@@ -23,6 +23,7 @@
     </mj-style>
     <mj-style inline="inline"> .text-link { color: #5e6ebf } </mj-style>
     <mj-style inline="inline"> .footer-link { color: #888888 } </mj-style>
+    <mj-font name="Flexo" href="font/flexo.css" />
   </mj-head>
   <mj-body width="600px">
     <mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
