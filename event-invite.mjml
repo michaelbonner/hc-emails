@@ -14,10 +14,12 @@
     </mj-attributes>
     <mj-style inline="inline">
       .body-section-left { color: white; background-color: #ffffff;
-      background-image: url('images/bg-invite-left.png'); background-repeat:
-      no-repeat; background-position: top center; background-size: 100% auto;
-      min-height: 517px } .body-section-right { background-color: #ffffff;
-      background-image: url('images/bg-invite-right-top.png');
+      background-image:
+      url('https://hc-emails.vercel.app/images/bg-invite-left.png');
+      background-repeat: no-repeat; background-position: top center;
+      background-size: 100% auto; min-height: 517px } .body-section-right {
+      background-color: #ffffff; background-image:
+      url('https://hc-emails.vercel.app/images/bg-invite-right-top.png');
       background-repeat: no-repeat; background-position: top center;
       background-size: 550px auto; min-height: 517px }
     </mj-style>
@@ -36,7 +38,7 @@
             padding-right="10px"
           >
             <mj-image
-              src="images/health-catalyst-logo-stacked.png"
+              src="https://hc-emails.vercel.app/images/health-catalyst-logo-stacked.png"
               alt="Health Catalyst"
               padding-top="50px"
               padding-bottom="50px"
@@ -87,7 +89,7 @@
                     <td width="60px" style="padding-top: 5px">
                       <img
                         style="width: 100%"
-                        src="images/default-avatar.png"
+                        src="https://hc-emails.vercel.app/images/default-avatar.png"
                         alt="speaker image"
                         height="60px"
                         width="60px"
@@ -128,7 +130,7 @@
                     <td width="60px" style="padding-top: 5px">
                       <img
                         style="width: 100%"
-                        src="images/default-avatar.png"
+                        src="https://hc-emails.vercel.app/images/default-avatar.png"
                         alt="speaker image"
                         height="60px"
                         width="60px"
