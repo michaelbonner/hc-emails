@@ -1,7 +1,7 @@
 <mjml>
   <mj-head>
-    <mj-title>Thank you for attending [Event Name]</mj-title>
-    <mj-preview>Thank you for attending [Event Name]</mj-preview>
+    <mj-title>Save the date for [Event Name]!</mj-title>
+    <mj-preview>Save the date for [Event Name]!</mj-preview>
     <mj-attributes>
       <mj-all font-family="'Flexo', Helvetica, Arial, sans-serif"></mj-all>
       <mj-text
@@ -13,7 +13,7 @@
       ></mj-text>
     </mj-attributes>
     <mj-style inline="inline">
-      .body-section { color: white; background-color: #fff; background-image:
+      .body-section { color: white; background-color: #ffffff; background-image:
       url('https://hc-emails.vercel.app/images/bg-save-the-date.png');
       background-repeat: no-repeat; background-position: top center;
       background-size: 100% auto; }
