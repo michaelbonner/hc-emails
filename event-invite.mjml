@@ -19,9 +19,9 @@
       background-repeat: no-repeat; background-position: top center;
       background-size: 550px auto; min-height: 517px } .body-section-bottom {
       background-color: #ffffff; background-image:
-      url('images/bg-invite-bottom.png'); background-repeat: no-repeat;
-      background-position: top center; background-size: 800px auto; min-height:
-      111px }
+      url('https://hc-emails.vercel.app/images/bg-invite-bottom.png');
+      background-repeat: no-repeat; background-position: top center;
+      background-size: 800px auto; min-height: 111px }
     </mj-style>
     <mj-style inline="inline"> .text-link { color: #5e6ebf } </mj-style>
     <mj-style inline="inline"> .footer-link { color: #888888 } </mj-style>
