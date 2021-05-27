@@ -74,7 +74,7 @@
           </mj-text>
         </mj-column>
       </mj-section>
-      <mj-section padding-left="13%" padding-right="100px" padding-top="0">
+      <mj-section padding-left="13%" padding-right="10%" padding-top="0">
         <mj-column width="100%">
           <mj-text
             font-size="18px"
