@@ -14,23 +14,24 @@
     </mj-attributes>
     <mj-style inline="inline">
       .body-section { color: white; background-color: #006e9a; background-image:
-      url('images/bg-default-top.png'); background-repeat: no-repeat;
-      background-position: top center; background-size: 100% auto; }
-      .body-section-bottom { color: white; background-color: #006e9a;
-      background-image: url('images/bg-default-bottom.png'); background-repeat:
-      no-repeat; background-position: bottom center; background-size: 100%
-      auto;}
+      url('https://hc-emails.vercel.app/images/bg-default-top.png');
+      background-repeat: no-repeat; background-position: top center;
+      background-size: 100% auto; } .body-section-bottom { color: white;
+      background-color: #006e9a; background-image:
+      url('https://hc-emails.vercel.app/images/bg-default-bottom.png');
+      background-repeat: no-repeat; background-position: bottom center;
+      background-size: 100% auto;}
     </mj-style>
     <mj-style inline="inline"> .text-link { color: #5e6ebf } </mj-style>
     <mj-style inline="inline"> .footer-link { color: #888888 } </mj-style>
-    <mj-font name="Flexo" href="font/flexo.css" />
+    <mj-font name="Flexo" href="https://hc-emails.vercel.app/font/flexo.css" />
   </mj-head>
   <mj-body width="600px">
     <mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
       <mj-section padding-left="15px" padding-right="15px">
         <mj-column width="100%">
           <mj-image
-            src="images/health-catalyst-mark.png"
+            src="https://hc-emails.vercel.app/images/health-catalyst-mark.png"
             width="39px"
             padding-bottom="20px"
           >
@@ -56,7 +57,11 @@
           >
             [Event Name]
           </mj-text>
-          <mj-image src="images/video-preview.png" width="340px"> </mj-image>
+          <mj-image
+            src="https://hc-emails.vercel.app/images/video-preview.png"
+            width="340px"
+          >
+          </mj-image>
           <mj-text
             font-size="19px"
             line-height="140%"
@@ -120,7 +125,7 @@
         <mj-column width="220px" padding-right="0">
           <mj-image
             width="200px"
-            src="images/health-catalyst-logo.png"
+            src="https://hc-emails.vercel.app/images/health-catalyst-logo.png"
           ></mj-image>
         </mj-column>
         <mj-column width="180px" padding-right="0">
