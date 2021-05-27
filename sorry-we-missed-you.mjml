@@ -34,6 +34,7 @@
             src="https://hc-emails.vercel.app/images/health-catalyst-mark.png"
             width="39px"
             padding-bottom="20px"
+            href="https://www.healthcatalyst.com/"
           >
           </mj-image>
           <mj-text
@@ -60,6 +61,7 @@
           <mj-image
             src="https://hc-emails.vercel.app/images/video-preview.png"
             width="340px"
+            href="https://www.healthcatalyst.com/"
           >
           </mj-image>
           <mj-text
@@ -111,7 +113,7 @@
             align="center"
             color="#ffffff"
             font-size="23px"
-            href="https://google.com"
+            href="https://www.healthcatalyst.com/"
             padding-bottom="40px"
           >
             Link to Recap CTA
@@ -126,6 +128,7 @@
           <mj-image
             width="200px"
             src="https://hc-emails.vercel.app/images/health-catalyst-logo.png"
+            href="https://www.healthcatalyst.com/"
           ></mj-image>
         </mj-column>
         <mj-column width="180px" padding-right="0">
@@ -139,26 +142,26 @@
             padding-top="7px"
           >
             <mj-social-element
-              name="facebook"
-              href="https://mjml.io/"
-              background-color="#cacaca"
-            >
-            </mj-social-element>
-            <mj-social-element
-              name="google"
-              href="https://mjml.io/"
-              background-color="#cacaca"
-            >
-            </mj-social-element>
-            <mj-social-element
-              name="twitter"
-              href="https://mjml.io/"
+              name="youtube"
+              href="https://www.youtube.com/user/HealthCatalyst1/videos"
               background-color="#cacaca"
             >
             </mj-social-element>
             <mj-social-element
               name="linkedin"
-              href="https://mjml.io/"
+              href="https://www.linkedin.com/company/healthcatalyst"
+              background-color="#cacaca"
+            >
+            </mj-social-element>
+            <mj-social-element
+              name="facebook"
+              href="https://www.facebook.com/HealthCatalyst"
+              background-color="#cacaca"
+            >
+            </mj-social-element>
+            <mj-social-element
+              name="twitter"
+              href="https://twitter.com/HealthCatalyst"
               background-color="#cacaca"
             >
             </mj-social-element>
