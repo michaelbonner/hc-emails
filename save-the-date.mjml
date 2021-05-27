@@ -1,0 +1,195 @@
+<mjml>
+  <mj-head>
+    <mj-title>Thank you for attending [Event Name]</mj-title>
+    <mj-preview>Thank you for attending [Event Name]</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="'Flexo', Helvetica, Arial, sans-serif"></mj-all>
+      <mj-text
+        font-weight="400"
+        font-size="16px"
+        color="#000000"
+        line-height="24px"
+        font-family="'Flexo', Helvetica, Arial, sans-serif"
+      ></mj-text>
+    </mj-attributes>
+    <mj-style inline="inline">
+      .body-section { color: white; background-color: #fff; background-image:
+      url('https://hc-emails.vercel.app/images/bg-save-the-date.png');
+      background-repeat: no-repeat; background-position: top center;
+      background-size: 100% auto; }
+    </mj-style>
+    <mj-style inline="inline"> .text-link { color: #5e6ebf } </mj-style>
+    <mj-style inline="inline"> .footer-link { color: #888888 } </mj-style>
+    <mj-font name="Flexo" href="https://hc-emails.vercel.app/font/flexo.css" />
+  </mj-head>
+  <mj-body width="800px">
+    <mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
+      <mj-section padding-left="160px" padding-right="100px">
+        <mj-column width="100%">
+          <mj-text
+            color="#ffffff"
+            font-style="italic"
+            font-size="22px"
+            line-height="120%"
+            padding-top="24px"
+            padding-bottom="0"
+          >
+            Save the date!
+          </mj-text>
+          <mj-text
+            color="#ffffff"
+            font-weight="700"
+            font-size="36px"
+            line-height="120%"
+            padding-top="18px"
+            padding-bottom="0"
+          >
+            Event Title Here and Here and Here and Here
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section
+        padding-top="30px"
+        padding-left="200px"
+        padding-right="100px"
+        padding-bottom="0"
+      >
+        <mj-column width="100%">
+          <mj-text
+            font-size="22px"
+            color="#00ac8f"
+            font-weight="700"
+            line-height="120%"
+            padding-bottom="0"
+          >
+            [Date(s)] • [Time]
+          </mj-text>
+          <mj-text
+            font-size="22px"
+            color="#00ac8f"
+            line-height="140%"
+            padding-top="0"
+          >
+            [Location]
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-left="180px" padding-right="100px" padding-top="0">
+        <mj-column width="100%">
+          <mj-text
+            font-size="18px"
+            color="#252526"
+            line-height="180%"
+            font-weight="300"
+          >
+            <ul>
+              <li>Lorem ipsum dolor sit amet, consectetur</li>
+              <li>elit, sed do eiusmod tempor incididunt ut labore</li>
+              <li>dolore magna aliqua. Ut enim ad minim veniam,</li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-wrapper padding-top="0" padding-bottom="0" background-color="#00ac8f">
+      <mj-section
+        padding-left="30px"
+        padding-right="30px"
+        css-class="body-section-bottom"
+      >
+        <mj-column width="50%">
+          <mj-text
+            font-size="19px"
+            line-height="140%"
+            align="left"
+            color="#ffffff"
+            padding-bottom="0"
+            font-weight="bold"
+          >
+            www.[event-url].com
+          </mj-text>
+        </mj-column>
+        <mj-column width="50%">
+          <mj-image
+            src="https://hc-emails.vercel.app/images/health-catalyst-logo-white.png"
+            width="191px"
+            href="https://www.healthcatalyst.com/"
+            align="right"
+          >
+          </mj-image>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-wrapper
+      padding-top="0"
+      padding-bottom="0"
+      css-class="body-section-bottom"
+    >
+      <!--  -->
+    </mj-wrapper>
+
+    <mj-wrapper>
+      <mj-section padding-top="0">
+        <mj-column width="220px" padding-right="0">
+          <mj-image
+            width="200px"
+            src="https://hc-emails.vercel.app/images/health-catalyst-logo.png"
+            href="https://www.healthcatalyst.com/"
+          ></mj-image>
+        </mj-column>
+        <mj-column width="180px" padding-right="0">
+          <mj-social
+            font-size="15px"
+            icon-size="25px"
+            mode="horizontal"
+            padding="0"
+            align="center"
+            border-radius="0px"
+            padding-top="7px"
+          >
+            <mj-social-element
+              name="youtube"
+              href="https://www.youtube.com/user/HealthCatalyst1/videos"
+              background-color="#cacaca"
+            >
+            </mj-social-element>
+            <mj-social-element
+              name="linkedin"
+              href="https://www.linkedin.com/company/healthcatalyst"
+              background-color="#cacaca"
+            >
+            </mj-social-element>
+            <mj-social-element
+              name="facebook"
+              href="https://www.facebook.com/HealthCatalyst"
+              background-color="#cacaca"
+            >
+            </mj-social-element>
+            <mj-social-element
+              name="twitter"
+              href="https://twitter.com/HealthCatalyst"
+              background-color="#cacaca"
+            >
+            </mj-social-element>
+          </mj-social>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column width="100%" padding-right="0">
+          <mj-text
+            color="#b0b0b0"
+            font-size="11px"
+            align="center"
+            line-height="16px"
+            padding-top="0"
+          >
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+            volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+            ullamcorper suscipit lobortis nisl ut aliquip ex ea com
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
