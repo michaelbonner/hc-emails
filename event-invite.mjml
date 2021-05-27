@@ -1,0 +1,287 @@
+<mjml>
+  <mj-head>
+    <mj-title>[Event Name] Invite</mj-title>
+    <mj-preview>[Event Name] Invite</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="'Flexo', Helvetica, Arial, sans-serif"></mj-all>
+      <mj-text
+        font-weight="400"
+        font-size="16px"
+        color="#000000"
+        line-height="24px"
+        font-family="'Flexo', Helvetica, Arial, sans-serif"
+      ></mj-text>
+    </mj-attributes>
+    <mj-style inline="inline">
+      .body-section-left { color: white; background-color: #ffffff;
+      background-image: url('images/bg-invite-left.png'); background-repeat:
+      no-repeat; background-position: top center; background-size: 100% auto;
+      min-height: 517px } .body-section-right { background-color: #ffffff;
+      background-image: url('images/bg-invite-right-top.png');
+      background-repeat: no-repeat; background-position: top center;
+      background-size: 550px auto; min-height: 517px }
+    </mj-style>
+    <mj-style inline="inline"> .text-link { color: #5e6ebf } </mj-style>
+    <mj-style inline="inline"> .footer-link { color: #888888 } </mj-style>
+    <mj-font name="Flexo" href="https://hc-emails.vercel.app/font/flexo.css" />
+  </mj-head>
+  <mj-body width="800px">
+    <mj-wrapper padding-top="0" padding-bottom="0">
+      <mj-section padding-left="0" padding-right="0">
+        <mj-group>
+          <mj-column
+            width="250px"
+            css-class="body-section-left"
+            padding-left="10px"
+            padding-right="10px"
+          >
+            <mj-image
+              src="images/health-catalyst-logo-stacked.png"
+              alt="Health Catalyst"
+              padding-top="50px"
+              padding-bottom="50px"
+            />
+            <mj-text
+              font-weight="bold"
+              font-size="18px"
+              color="#ffffff"
+              letter-spacing="1px"
+              line-height="100%"
+              padding-bottom="0"
+            >
+              [Date] • [Time]
+            </mj-text>
+            <mj-text
+              font-size="18px"
+              color="#ffffff"
+              letter-spacing="1px"
+              line-height="100%"
+              padding-bottom="0"
+            >
+              [Location]
+            </mj-text>
+            <mj-text
+              font-weight="bold"
+              font-size="15px"
+              color="#ffffff"
+              letter-spacing="1px"
+              line-height="100%"
+              padding-bottom="0"
+              padding-top="40px"
+            >
+              Featured Speakers
+            </mj-text>
+            <mj-text>
+              <table
+                border="0"
+                cellpadding="0"
+                cellspacing="0"
+                style="
+                  vertical-align: center;
+                  padding-right: 20px;
+                  padding-left: 20px;
+                "
+              >
+                <tbody>
+                  <tr>
+                    <td width="60px" style="padding-top: 5px">
+                      <img
+                        style="width: 100%"
+                        src="images/default-avatar.png"
+                        alt="speaker image"
+                        height="60px"
+                        width="60px"
+                      />
+                    </td>
+                    <td
+                      width="150px"
+                      style="padding-top: 10px; padding-left: 10px"
+                    >
+                      <p
+                        style="
+                          margin: 0;
+                          padding: 0;
+                          color: #ffffff;
+                          font-size: 11px;
+                          font-family: 'Flexo';
+                          line-height: 140%;
+                          font-weight: 700;
+                        "
+                      >
+                        [First Name Last Name]
+                      </p>
+                      <p
+                        style="
+                          margin: 0;
+                          padding: 0;
+                          color: #ffffff;
+                          font-size: 11px;
+                          font-family: 'Flexo';
+                          line-height: 140%;
+                        "
+                      >
+                        [Title, Description]
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="60px" style="padding-top: 5px">
+                      <img
+                        style="width: 100%"
+                        src="images/default-avatar.png"
+                        alt="speaker image"
+                        height="60px"
+                        width="60px"
+                      />
+                    </td>
+                    <td
+                      width="150px"
+                      style="padding-top: 10px; padding-left: 10px"
+                    >
+                      <p
+                        style="
+                          margin: 0;
+                          padding: 0;
+                          color: #ffffff;
+                          font-size: 11px;
+                          font-family: 'Flexo';
+                          line-height: 140%;
+                          font-weight: 700;
+                        "
+                      >
+                        [First Name Last Name]
+                      </p>
+                      <p
+                        style="
+                          margin: 0;
+                          padding: 0;
+                          color: #ffffff;
+                          font-size: 11px;
+                          font-family: 'Flexo';
+                          line-height: 140%;
+                        "
+                      >
+                        [Title, Description]
+                      </p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </mj-text>
+          </mj-column>
+          <mj-column width="550px" css-class="body-section-right">
+            <mj-text
+              font-size="30px"
+              color="white"
+              font-weight="600"
+              padding-left="120px"
+              padding-top="100px"
+            >
+              Event Title Here and Here
+            </mj-text>
+            <mj-text padding-left="120px" padding-top="50px" font-size="13px">
+              Short Event Description Lorem ipsum dolor sit amet, consectetuer
+              adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+              laoreet dolore magna aliquam erat
+            </mj-text>
+            <mj-text
+              color="#00ac8f"
+              font-weight="700"
+              padding-top="20px"
+              padding-bottom="0"
+              padding-left="50px"
+            >
+              Event Highlights
+            </mj-text>
+            <mj-text
+              font-weight="300"
+              font-size="14px"
+              line-height="200%"
+              padding-top="0"
+            >
+              <ul style="margin-top: 10px">
+                <li>Lorem ipsum dolor sit amet, consectetur</li>
+                <li>elit, sed do eiusmod tempor incididunt ut labore</li>
+                <li>dolore magna aliqua. Ut enim ad minim veniam,</li>
+                <li>dolore magna aliqua. Ut enim ad minim veniam,</li>
+              </ul>
+            </mj-text>
+            <mj-text
+              padding-left="50px"
+              font-weight="600"
+              font-style="italic"
+              font-size="17px"
+              color="#0077a4"
+            >
+              www.[event-url].com
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper>
+      <mj-section padding-top="0">
+        <mj-column width="220px" padding-right="0">
+          <mj-image
+            width="200px"
+            src="https://hc-emails.vercel.app/images/health-catalyst-logo.png"
+            href="https://www.healthcatalyst.com/"
+          ></mj-image>
+        </mj-column>
+        <mj-column width="180px" padding-right="0">
+          <mj-social
+            font-size="15px"
+            icon-size="25px"
+            mode="horizontal"
+            padding="0"
+            align="center"
+            border-radius="0px"
+            padding-top="7px"
+          >
+            <mj-social-element
+              name="youtube"
+              href="https://www.youtube.com/user/HealthCatalyst1/videos"
+              background-color="#cacaca"
+            >
+            </mj-social-element>
+            <mj-social-element
+              name="linkedin"
+              href="https://www.linkedin.com/company/healthcatalyst"
+              background-color="#cacaca"
+            >
+            </mj-social-element>
+            <mj-social-element
+              name="facebook"
+              href="https://www.facebook.com/HealthCatalyst"
+              background-color="#cacaca"
+            >
+            </mj-social-element>
+            <mj-social-element
+              name="twitter"
+              href="https://twitter.com/HealthCatalyst"
+              background-color="#cacaca"
+            >
+            </mj-social-element>
+          </mj-social>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column width="100%" padding-right="0">
+          <mj-text
+            color="#b0b0b0"
+            font-size="11px"
+            align="center"
+            line-height="16px"
+            padding-top="0"
+          >
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+            volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+            ullamcorper suscipit lobortis nisl ut aliquip ex ea com
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
