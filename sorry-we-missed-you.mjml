@@ -1,0 +1,177 @@
+<mjml>
+  <mj-head>
+    <mj-title>Sorry we missed you at [Event Name]</mj-title>
+    <mj-preview>Sorry we missed you at [Event Name]</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="'Flexo', Helvetica, Arial, sans-serif"></mj-all>
+      <mj-text
+        font-weight="400"
+        font-size="16px"
+        color="#000000"
+        line-height="24px"
+        font-family="'Flexo', Helvetica, Arial, sans-serif"
+      ></mj-text>
+    </mj-attributes>
+    <mj-style inline="inline">
+      .body-section { color: white; background-color: #4377a1; background-image:
+      url('images/bg-default-top.png'); background-repeat: no-repeat;
+      background-position: top center; background-size: 100% auto; }
+      .body-section-bottom { color: white; background-color: #4377a1;
+      background-image: url('images/bg-default-bottom.png'); background-repeat:
+      no-repeat; background-position: bottom center; background-size: 100%
+      auto;}
+    </mj-style>
+    <mj-style inline="inline"> .text-link { color: #5e6ebf } </mj-style>
+    <mj-style inline="inline"> .footer-link { color: #888888 } </mj-style>
+  </mj-head>
+  <mj-body width="600px">
+    <mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
+      <mj-section padding-left="15px" padding-right="15px">
+        <mj-column width="100%">
+          <mj-image
+            src="images/health-catalyst-mark.png"
+            width="38px"
+            padding-bottom="20px"
+          >
+          </mj-image>
+          <mj-text
+            color="#ffffff"
+            font-style="italic"
+            font-size="34px"
+            align="center"
+            line-height="20px"
+            padding-top="30px"
+          >
+            Sorry we missed you at
+          </mj-text>
+          <mj-text
+            color="#ffffff"
+            font-size="34px"
+            align="center"
+            padding-bottom="30px"
+          >
+            [Event Name]
+          </mj-text>
+          <mj-image src="images/video-preview.png" width="340px"> </mj-image>
+          <mj-text
+            font-size="20px"
+            line-height="140%"
+            align="center"
+            color="#ffffff"
+            padding-bottom="0"
+            font-weight="bold"
+          >
+            [Featured Session Title]
+          </mj-text>
+          <mj-text
+            font-size="20px"
+            align="center"
+            color="#ffffff"
+            padding-top="0"
+          >
+            [Speaker Name]
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-left="80px" padding-right="80px">
+        <mj-column width="100%">
+          <mj-text
+            font-size="18px"
+            color="#ffffff"
+            font-weight="300"
+            align="center"
+            line-height="30px"
+          >
+            More details here Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-wrapper
+      padding-top="0"
+      padding-bottom="0"
+      css-class="body-section-bottom"
+    >
+      <mj-section padding-left="100px" padding-right="100px">
+        <mj-column width="100%">
+          <mj-button
+            background-color="transparent"
+            border="4px solid #61ab8f"
+            align="center"
+            color="#ffffff"
+            font-size="17px"
+            href="https://google.com"
+            padding-bottom="40px"
+          >
+            Link to Recap CTA
+          </mj-button>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper full-width="full-width">
+      <mj-section padding-top="0">
+        <mj-group>
+          <mj-column width="15%" padding-right="0"> </mj-column>
+          <mj-column width="35%" padding-right="0">
+            <mj-image src="images/health-catalyst-logo.png"></mj-image>
+          </mj-column>
+          <mj-column width="30%" padding-right="0">
+            <mj-social
+              font-size="15px"
+              icon-size="25px"
+              mode="horizontal"
+              padding="0"
+              align="center"
+              border-radius="0px"
+              padding-top="7px"
+            >
+              <mj-social-element
+                name="facebook"
+                href="https://mjml.io/"
+                background-color="#cacaca"
+              >
+              </mj-social-element>
+              <mj-social-element
+                name="google"
+                href="https://mjml.io/"
+                background-color="#cacaca"
+              >
+              </mj-social-element>
+              <mj-social-element
+                name="twitter"
+                href="https://mjml.io/"
+                background-color="#cacaca"
+              >
+              </mj-social-element>
+              <mj-social-element
+                name="linkedin"
+                href="https://mjml.io/"
+                background-color="#cacaca"
+              >
+              </mj-social-element>
+            </mj-social>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column width="100%" padding-right="0">
+          <mj-text
+            color="#b0b0b0"
+            font-size="11px"
+            align="center"
+            line-height="16px"
+            padding-top="0"
+          >
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+            volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+            ullamcorper suscipit lobortis nisl ut aliquip ex ea com
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
