@@ -14,10 +14,11 @@
     </mj-attributes>
     <mj-style inline="inline">
       .body-section { color: white; background-color: #006e9a; background-image:
-      url('images/bg-thank-you-top.png'); background-repeat: no-repeat;
-      background-position: top center; background-size: 100% auto; }
-      .body-section-bottom { color: white; background-color: #006e9a;
-      background-image: url('images/bg-thank-you-bottom.png');
+      url('https://hc-emails.vercel.app/images/bg-thank-you-top.png');
+      background-repeat: no-repeat; background-position: top center;
+      background-size: 100% auto; } .body-section-bottom { color: white;
+      background-color: #006e9a; background-image:
+      url('https://hc-emails.vercel.app/images/bg-thank-you-bottom.png');
       background-repeat: no-repeat; background-position: bottom center;
       background-size: 100% auto;}
     </mj-style>
