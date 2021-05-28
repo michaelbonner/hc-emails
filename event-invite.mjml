@@ -3,13 +3,13 @@
     <mj-title>[Event Name] Invite</mj-title>
     <mj-preview>[Event Name] Invite</mj-preview>
     <mj-attributes>
-      <mj-all font-family="'Flexo', Helvetica, Arial, sans-serif"></mj-all>
+      <mj-all font-family="'Open Sans', Helvetica, Arial, sans-serif"></mj-all>
       <mj-text
         font-weight="400"
         font-size="16px"
         color="#000000"
         line-height="24px"
-        font-family="'Flexo', Helvetica, Arial, sans-serif"
+        font-family="'Open Sans', Helvetica, Arial, sans-serif"
       ></mj-text>
     </mj-attributes>
     <mj-style inline="inline">
@@ -25,11 +25,19 @@
     </mj-style>
     <mj-style inline="inline"> .text-link { color: #5e6ebf } </mj-style>
     <mj-style inline="inline"> .footer-link { color: #888888 } </mj-style>
-    <mj-font name="Flexo" href="https://hc-emails.vercel.app/font/flexo.css" />
+    <mj-font
+      name="Open Sans"
+      href="//fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,700&#038;display=swap"
+    />
   </mj-head>
   <mj-body width="800px">
     <mj-wrapper padding-top="0" padding-bottom="0">
-      <mj-section padding-left="0" padding-right="0" padding-bottom="0">
+      <mj-section
+        padding-top="0"
+        padding-left="0"
+        padding-right="0"
+        padding-bottom="0"
+      >
         <mj-group>
           <mj-column
             width="250px"
@@ -44,7 +52,7 @@
               padding-bottom="50px"
             />
             <mj-text
-              font-weight="bold"
+              font-weight="700"
               font-size="18px"
               color="#ffffff"
               letter-spacing="1px"
@@ -63,7 +71,7 @@
               [Location]
             </mj-text>
             <mj-text
-              font-weight="bold"
+              font-weight="700"
               font-size="15px"
               color="#ffffff"
               letter-spacing="1px"
@@ -105,7 +113,7 @@
                           padding: 0;
                           color: #ffffff;
                           font-size: 11px;
-                          font-family: 'Flexo';
+                          font-family: 'Open Sans';
                           line-height: 140%;
                           font-weight: 700;
                         "
@@ -118,7 +126,7 @@
                           padding: 0;
                           color: #ffffff;
                           font-size: 11px;
-                          font-family: 'Flexo';
+                          font-family: 'Open Sans';
                           line-height: 140%;
                         "
                       >
@@ -146,7 +154,7 @@
                           padding: 0;
                           color: #ffffff;
                           font-size: 11px;
-                          font-family: 'Flexo';
+                          font-family: 'Open Sans';
                           line-height: 140%;
                           font-weight: 700;
                         "
@@ -159,7 +167,7 @@
                           padding: 0;
                           color: #ffffff;
                           font-size: 11px;
-                          font-family: 'Flexo';
+                          font-family: 'Open Sans';
                           line-height: 140%;
                         "
                       >

@@ -3,13 +3,13 @@
     <mj-title>Save the date for [Event Name]!</mj-title>
     <mj-preview>Save the date for [Event Name]!</mj-preview>
     <mj-attributes>
-      <mj-all font-family="'Flexo', Helvetica, Arial, sans-serif"></mj-all>
+      <mj-all font-family="'Open Sans', Helvetica, Arial, sans-serif"></mj-all>
       <mj-text
         font-weight="400"
         font-size="16px"
         color="#000000"
         line-height="24px"
-        font-family="'Flexo', Helvetica, Arial, sans-serif"
+        font-family="'Open Sans', Helvetica, Arial, sans-serif"
       ></mj-text>
     </mj-attributes>
     <mj-style inline="inline">
@@ -20,7 +20,10 @@
     </mj-style>
     <mj-style inline="inline"> .text-link { color: #5e6ebf } </mj-style>
     <mj-style inline="inline"> .footer-link { color: #888888 } </mj-style>
-    <mj-font name="Flexo" href="https://hc-emails.vercel.app/font/flexo.css" />
+    <mj-font
+      name="Open Sans"
+      href="//fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,700&#038;display=swap"
+    />
   </mj-head>
   <mj-body width="800px">
     <mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
@@ -33,6 +36,7 @@
             line-height="120%"
             padding-top="24px"
             padding-bottom="0"
+            font-weight="600"
           >
             Save the date!
           </mj-text>
@@ -43,6 +47,7 @@
             line-height="120%"
             padding-top="18px"
             padding-bottom="0"
+            font-weight="600"
           >
             Event Title Here and Here and Here and Here
           </mj-text>
@@ -104,7 +109,7 @@
             align="left"
             color="#ffffff"
             padding-bottom="0"
-            font-weight="bold"
+            font-weight="700"
           >
             www.[event-url].com
           </mj-text>
