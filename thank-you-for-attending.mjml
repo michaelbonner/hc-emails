@@ -4,90 +4,65 @@
     <mj-preview>Thank you for attending [Event Name]</mj-preview>
     <mj-attributes>
       <mj-all font-family="'Open Sans', Helvetica, Arial, sans-serif"></mj-all>
-      <mj-text
-        font-weight="400"
-        font-size="16px"
-        color="#000000"
-        line-height="24px"
-        font-family="'Open Sans', Helvetica, Arial, sans-serif"
-      ></mj-text>
+      <mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px" font-family="'Open Sans', Helvetica, Arial, sans-serif"></mj-text>
     </mj-attributes>
     <mj-style inline="inline">
-      .body-section { color: white; background-color: #006e9a; background-image:
-      url('https://hc-emails.vercel.app/images/bg-thank-you-top.png');
-      background-repeat: no-repeat; background-position: top center;
-      background-size: 100% auto; } .body-section-bottom { color: white;
-      background-color: #006e9a; background-image:
-      url('https://hc-emails.vercel.app/images/bg-thank-you-bottom.png');
-      background-repeat: no-repeat; background-position: bottom center;
-      background-size: 100% auto;}
+      .body-section {
+        color: white;
+        background-color: #006e9a;
+        background-image:
+          url('https://hc-emails.vercel.app/images/bg-thank-you-top.png');
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: 100% auto;
+      }
+
+      .body-section-bottom {
+        color: white;
+        background-color: #006e9a;
+        background-image:
+          url('https://hc-emails.vercel.app/images/bg-thank-you-bottom.png');
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        background-size: 100% auto;
+      }
     </mj-style>
-    <mj-style inline="inline"> .text-link { color: #5e6ebf } </mj-style>
-    <mj-style inline="inline"> .footer-link { color: #888888 } </mj-style>
-    <mj-font
-      name="Open Sans"
-      href="//fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,700&#038;display=swap"
-    />
+    <mj-style inline="inline">
+      .text-link {
+        color: #5e6ebf
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .footer-link {
+        color: #888888
+      }
+    </mj-style>
+    <mj-font name="Open Sans" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,700&#038;display=swap" />
   </mj-head>
   <mj-body width="600px">
     <mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
       <mj-section padding-left="15px" padding-right="15px">
         <mj-column width="100%">
-          <mj-image
-            src="https://hc-emails.vercel.app/images/health-catalyst-mark.png"
-            width="39px"
-            padding-bottom="20px"
-            href="https://www.healthcatalyst.com/"
-          >
+          <mj-image src="https://hc-emails.vercel.app/images/health-catalyst-mark.png" width="39px" padding-bottom="20px" href="https://www.healthcatalyst.com/">
           </mj-image>
-          <mj-text
-            color="#ffffff"
-            font-style="italic"
-            font-size="36px"
-            align="center"
-            line-height="120%"
-            padding-top="10px"
-            padding-bottom="0"
-            font-weight="700"
-          >
+          <mj-text color="#ffffff" font-style="italic" font-size="36px" align="center" line-height="120%" padding-top="10px" padding-bottom="0" font-weight="700">
             Thank you for attending
           </mj-text>
-          <mj-text
-            color="#ffffff"
-            font-size="36px"
-            align="center"
-            line-height="120%"
-            padding-top="0"
-            padding-bottom="18px"
-          >
+          <mj-text color="#ffffff" font-size="36px" align="center" line-height="120%" padding-top="0" padding-bottom="18px">
             [Event Name]
           </mj-text>
         </mj-column>
       </mj-section>
       <mj-section>
         <mj-column width="400px">
-          <mj-button
-            background-color="transparent"
-            border="4px solid #61ab8f"
-            align="center"
-            color="#ffffff"
-            font-size="23px"
-            href="https://www.healthcatalyst.com/"
-            padding-bottom="40px"
-          >
+          <mj-button background-color="transparent" border="4px solid #61ab8f" align="center" color="#ffffff" font-size="23px" href="https://www.healthcatalyst.com/" padding-bottom="40px">
             Link to Recap CTA
           </mj-button>
         </mj-column>
       </mj-section>
       <mj-section>
         <mj-column width="400px">
-          <mj-text
-            font-size="19px"
-            color="#ffffff"
-            font-weight="300"
-            align="center"
-            line-height="140%"
-          >
+          <mj-text font-size="19px" color="#ffffff" font-weight="300" align="center" line-height="140%">
             More details here Lorem ipsum dolor sit amet, consectetur adipiscing
             elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur
             adipiscing elit, sed do eiusmod
@@ -96,102 +71,44 @@
       </mj-section>
     </mj-wrapper>
     <mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
-      <mj-section
-        padding-left="15px"
-        padding-right="15px"
-        css-class="body-section-bottom"
-      >
+      <mj-section padding-left="15px" padding-right="15px" css-class="body-section-bottom">
         <mj-column width="100%">
-          <mj-image
-            src="https://hc-emails.vercel.app/images/video-preview.png"
-            width="340px"
-            href="https://www.healthcatalyst.com/"
-          >
+          <mj-image src="https://hc-emails.vercel.app/images/video-preview.png" width="340px" href="https://www.healthcatalyst.com/">
           </mj-image>
-          <mj-text
-            font-size="19px"
-            line-height="140%"
-            align="center"
-            color="#ffffff"
-            padding-bottom="0"
-            font-weight="700"
-          >
+          <mj-text font-size="19px" line-height="140%" align="center" color="#ffffff" padding-bottom="0" font-weight="700">
             [Featured Session Title]
           </mj-text>
-          <mj-text
-            font-size="19px"
-            align="center"
-            color="#ffffff"
-            padding-top="0"
-          >
+          <mj-text font-size="19px" align="center" color="#ffffff" padding-top="0">
             [Speaker Name]
           </mj-text>
         </mj-column>
       </mj-section>
     </mj-wrapper>
-    <mj-wrapper
-      padding-top="0"
-      padding-bottom="0"
-      css-class="body-section-bottom"
-    >
+    <mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section-bottom">
       <!--  -->
     </mj-wrapper>
 
     <mj-wrapper>
       <mj-section padding-top="0">
         <mj-column width="220px" padding-right="0">
-          <mj-image
-            width="200px"
-            src="https://hc-emails.vercel.app/images/health-catalyst-logo.png"
-            href="https://www.healthcatalyst.com/"
-          ></mj-image>
+          <mj-image width="200px" src="https://hc-emails.vercel.app/images/health-catalyst-logo.png" href="https://www.healthcatalyst.com/"></mj-image>
         </mj-column>
         <mj-column width="180px" padding-right="0">
-          <mj-social
-            font-size="15px"
-            icon-size="25px"
-            mode="horizontal"
-            padding="0"
-            align="center"
-            border-radius="0px"
-            padding-top="7px"
-          >
-            <mj-social-element
-              name="youtube"
-              href="https://www.youtube.com/user/HealthCatalyst1/videos"
-              background-color="#cacaca"
-            >
+          <mj-social font-size="15px" icon-size="25px" mode="horizontal" padding="0" align="center" border-radius="0px" padding-top="7px">
+            <mj-social-element name="youtube" href="https://www.youtube.com/user/HealthCatalyst1/videos" background-color="#cacaca">
             </mj-social-element>
-            <mj-social-element
-              name="linkedin"
-              href="https://www.linkedin.com/company/healthcatalyst"
-              background-color="#cacaca"
-            >
+            <mj-social-element name="linkedin" href="https://www.linkedin.com/company/healthcatalyst" background-color="#cacaca">
             </mj-social-element>
-            <mj-social-element
-              name="facebook"
-              href="https://www.facebook.com/HealthCatalyst"
-              background-color="#cacaca"
-            >
+            <mj-social-element name="facebook" href="https://www.facebook.com/HealthCatalyst" background-color="#cacaca">
             </mj-social-element>
-            <mj-social-element
-              name="twitter"
-              href="https://twitter.com/HealthCatalyst"
-              background-color="#cacaca"
-            >
+            <mj-social-element name="twitter" href="https://twitter.com/HealthCatalyst" background-color="#cacaca">
             </mj-social-element>
           </mj-social>
         </mj-column>
       </mj-section>
       <mj-section padding="0">
         <mj-column width="100%" padding-right="0">
-          <mj-text
-            color="#b0b0b0"
-            font-size="11px"
-            align="center"
-            line-height="16px"
-            padding-top="0"
-          >
+          <mj-text color="#b0b0b0" font-size="11px" align="center" line-height="16px" padding-top="0">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
             nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
             volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
