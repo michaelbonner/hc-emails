@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/michaelbonner/hc-emails#readme",
   "dependencies": {
-    "mjml": "^4.10.0"
+    "mjml": "^4.10.1"
   }
 }
